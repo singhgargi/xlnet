@@ -240,7 +240,7 @@ class InputExample(object):
 def get_examples(data_dir, set_type):
   examples = []
 
-  for level in ["high"]:
+  for level in ["middle","high"]:
     if level == "middle" and FLAGS.high_only: continue
     if level == "high" and FLAGS.middle_only: continue
 
